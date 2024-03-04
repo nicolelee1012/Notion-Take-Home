@@ -32,7 +32,7 @@ For cases when the same person rated the same book twice, the spec stated to tak
 2. Allow customized page title or database(table) name by allowing users to input this on the terminal
 3. Create a GUI where users can upload their CSV file to and take titles and column names as inputs as well.
 
-## short answers
+## Short answers
 
 - Was there anything you got stuck on, and if so what did you do to resolve it? <br>
   There wasn't anything specific I got stuck on. However, I did spend a good half an hour getting used to the overall structure and playing around with some of the example code provided by Notion.
