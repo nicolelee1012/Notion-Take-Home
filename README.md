@@ -16,11 +16,11 @@ On parser.js, change csvFilePath (line 22) and databse name (line 226) based on 
 
 
 
-https://github.com/nicolelee1012/Notion-Take-Home/assets/79027045/7c9cf77c-b4ab-418e-a0c6-d9ac14bc1007
+https://github.com/nicolelee1012/Notion-Take-Home/assets/79027045/7c9cf77c-b4ab-418e-a0c6-d9ac14bc1007 <br>
 Demo for working code - creates a database on the parent page with a compiled data 
 
 
-https://github.com/nicolelee1012/Notion-Take-Home/assets/79027045/6d383bf4-7326-4af9-b1ea-818e9d48f233
+https://github.com/nicolelee1012/Notion-Take-Home/assets/79027045/6d383bf4-7326-4af9-b1ea-818e9d48f233 <br>
 Demo for determinism - regardless of the number of times that the code is run, the same exact table is outputted 
 
 ## How my program works
