@@ -52,7 +52,7 @@ I considered having a mechanism to allow for user input for the CSV file path an
   There wasn't anything specific I got stuck on. However, I did spend a good half an hour getting used to the overall structure and playing around with some of the example code provided by Notion.
 
 - Do you have any suggestions for improving the API documentation to make it clearer or easier to use? <br>
-  The documentation was very helpful for the most part. The only things I wish were different are that I think the documentation could define the differences between pages, blocks, databases, properties more upfront and explicitly. And I wished that [this guide] (https://developers.notion.com/docs/create-a-notion-integration) goes through the rest of the section on the HTML as well - I think it will help users understand all facets of Notion API more hollistically in one sitting :)
+  The documentation was very helpful for the most part. The only things I wish were different are that I think the documentation could define the differences between pages, blocks, databases, properties more upfront and explicitly. And I wished that [this guide](https://developers.notion.com/docs/create-a-notion-integration) goes through the rest of the section on the HTML as well - I think it will help users understand all facets of Notion API more hollistically in one sitting :)
   
 
 ## Sources I relied on
