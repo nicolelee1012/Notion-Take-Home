@@ -2,16 +2,16 @@
 
 ## Running the program
 
-# Clone this repo locally
+### Clone this repo locally
 git clone https://github.com/nicolelee1012/Notion-Take-Home.git
-# Swith into this project
+### Swith into this project
 cd Notion-Take-Home
-# Install the dependencies
+### Install the dependencies
 npm install
-# Customize (optional)
+### Customize (optional)
 In your .env file, add the following variables: NOTION_KEY and NOTION_PAGE_ID
 On parser.js, change csvFilePath (line 22) and databse name (line 226) based on needs and preferences
-# Run
+### Run
 node parser.js
 
 ## How my program works
