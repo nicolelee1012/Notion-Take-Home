@@ -14,6 +14,11 @@ On parser.js, change csvFilePath (line 22) and databse name (line 226) based on 
 ##### Run
 `node parser.js`
 
+
+
+https://github.com/nicolelee1012/Notion-Take-Home/assets/79027045/7c9cf77c-b4ab-418e-a0c6-d9ac14bc1007
+
+
 ## How my program works
 
 For the scope of this assignment, I took a simple approach to building my program. I made it entirely a server-side app by not having a GUI. Additionally, the path to the CSV is hardcoded as well as the title of the parent page and the database that is created. This was to focus more on the meat of the assignment. Expansion ideas are discussed in the following section!
