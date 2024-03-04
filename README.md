@@ -17,7 +17,11 @@ On parser.js, change csvFilePath (line 22) and databse name (line 226) based on 
 
 
 https://github.com/nicolelee1012/Notion-Take-Home/assets/79027045/7c9cf77c-b4ab-418e-a0c6-d9ac14bc1007
+Demo for working code - creates a database on the parent page with a compiled data 
 
+
+https://github.com/nicolelee1012/Notion-Take-Home/assets/79027045/6d383bf4-7326-4af9-b1ea-818e9d48f233
+Demo for determinism - regardless of the number of times that the code is run, the same exact table is outputted 
 
 ## How my program works
 
@@ -29,7 +33,12 @@ For the scope of this assignment, I took a simple approach to building my progra
 4. Then, the program consolidates rows that share the same book title into one row and calculates average rating and the number of times the book was favorited
 5. The program adds this entry to the database that was created in the beginning row by row in a ascending alphebtical order
 
+## Decisions and trade offs 
 For cases when the same person rated the same book twice, the spec stated to take the latest entry into consideration. However, since the entries were not organized in any certain order or contained the time of entry, there wasn't a way to distinguish which one was later. Therefore, I handled this case by take the one with the highest rating into consideration. 
+
+The assignment doesn't have intensive edge case checking and unit testing. This was because I did my best to honor the time constraint that I was given. However, the code does check edge cases that were explicitly said in the spec like extra white spaces, multiple ratings from one person, different capitalization practices etc. 
+
+I considered having a mechanism to allow for user input for the CSV file path and title as terminal inputs or using a GUI; however, I decided against it as I found that using the hardcoded path and title fit the context given by the spec (we were only working with 1 csv file). I also considered having it write over previously created databases rather than writing a new one on the give page, but I decided on take the approach I did as it allowed for confirming the deterministic nature well. 
 
 ## Exapnsion ideas
 
